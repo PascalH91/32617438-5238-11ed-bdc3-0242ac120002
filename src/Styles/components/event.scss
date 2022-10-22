@@ -1,0 +1,52 @@
+@use "../variables/colors";
+
+.EventWrapper {
+  display: grid;
+  grid-template-rows: 100px 1fr 1fr;
+  height: 600px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem #00000030;
+}
+
+.EventTitleWrapper {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.AvatarImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.2rem #00000020;
+}
+
+.Poster {
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+  height: 350px;
+}
+
+.LinkButton {
+  position: unset;
+  padding-left: 0 !important;
+}
+
+.AddButton {
+  color: white;
+  align-self: end;
+  background-color: colors.$base-color-main;
+}
+
+.AddButton:hover {
+  background-color: colors.$base-color-light;
+}
+
+.EventInfoFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}

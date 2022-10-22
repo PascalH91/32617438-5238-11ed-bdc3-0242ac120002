@@ -1,0 +1,50 @@
+.EventWrapper {
+  display: grid;
+  grid-template-rows: 100px 1fr 1fr;
+  height: 600px;
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.1882352941);
+}
+
+.EventTitleWrapper {
+  display: flex;
+  padding: 1rem;
+  align-items: center;
+}
+
+.AvatarImage {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1254901961);
+}
+
+.Poster {
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  width: 100%;
+  height: 350px;
+}
+
+.LinkButton {
+  position: unset;
+  padding-left: 0 !important;
+}
+
+.AddButton {
+  color: white;
+  align-self: end;
+  background-color: rgb(76, 16, 133);
+}
+
+.AddButton:hover {
+  background-color: rgb(162, 93, 226);
+}
+
+.EventInfoFooter {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+}/*# sourceMappingURL=Event.css.map */

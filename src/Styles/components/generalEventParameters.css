@@ -1,0 +1,12 @@
+.ChipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.Chip {
+  background-color: rgb(162, 93, 226) !important;
+  color: white !important;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0, 0, 0, 0.1254901961);
+}/*# sourceMappingURL=generalEventParameters.css.map */

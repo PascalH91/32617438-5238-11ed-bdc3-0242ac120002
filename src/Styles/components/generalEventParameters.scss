@@ -1,0 +1,13 @@
+@use "../variables/colors";
+
+.ChipList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2rem;
+}
+.Chip {
+  background-color: colors.$base-color-light !important;
+  color: white !important;
+  box-shadow: 0.2rem 0.2rem 0.2rem #00000020;
+}

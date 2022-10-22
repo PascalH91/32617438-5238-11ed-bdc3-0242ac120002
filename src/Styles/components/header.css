@@ -1,0 +1,28 @@
+.Toolbar {
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  background-color: rgb(162, 93, 226);
+}
+
+.SearchIcon {
+  pointer-events: none;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 0 0.5rem;
+}
+
+.SearchInput {
+  margin: 0 0 0 3rem;
+  color: inherit !important;
+}
+
+.SearchFieldWrapper {
+  display: flex;
+  align-items: center;
+  border-radius: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.1254901961);
+}/*# sourceMappingURL=header.css.map */

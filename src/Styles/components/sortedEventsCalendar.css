@@ -1,0 +1,9 @@
+.EventDateBar {
+  background-color: rgb(162, 93, 226);
+  padding: 2rem;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 10;
+  color: white;
+  box-shadow: 0.5rem 0.5rem 0.5rem rgba(0, 0, 0, 0.3137254902);
+}/*# sourceMappingURL=sortedEventsCalendar.css.map */

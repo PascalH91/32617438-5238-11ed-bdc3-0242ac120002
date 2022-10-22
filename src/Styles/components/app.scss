@@ -1,0 +1,13 @@
+@use "../variables/colors";
+
+:root {
+  background: radial-gradient(transparent 70%, #00000040),
+    linear-gradient(colors.$base-color-main, colors.$base-color-main);
+}
+
+.EventListHeader {
+  text-align: center;
+  color: white;
+  font-weight: 500;
+  padding: 2rem;
+}
